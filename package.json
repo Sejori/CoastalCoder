@@ -1,0 +1,34 @@
+{
+  "name": "coastalcoder",
+  "version": "0.0.1",
+  "description": "The simple web client for making web clients.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sejori/CoastalCoder.git"
+  },
+  "keywords": [
+    "online",
+    "code",
+    "editor",
+    "ipad",
+    "website",
+    "builder",
+    "web",
+    "client",
+    "static",
+    "site",
+    "coastal",
+    "coder",
+    "sejori"
+  ],
+  "author": "sejori",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sejori/CoastalCoder/issues"
+  },
+  "homepage": "https://github.com/Sejori/CoastalCoder#readme"
+}
