@@ -4,15 +4,24 @@ const useEffect = React.useEffect
 
 const Metadata = () => {
   const [ title, setTitle] = useState()
+  const [ scripts, setScripts ] = useState()
 
-  useEffect(() => {
+  useEffect(async () => {
     const metaData = await fetch('../data/metadata.json')
     setTitle(metaData.title)
+    setScripts(metaData.scripts.map( script => {
+      return (
+        <script src={script}></script>
+      )
+    }))
   }, [])
 
   return (
     <head>
       <title>{title}</title>
+
+      // load scripts
+      {scripts}
     </head>
   )
 }
