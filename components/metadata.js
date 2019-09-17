@@ -2,7 +2,7 @@ const e = React.createElement;
 const useState = React.useState
 const useEffect = React.useEffect
 
-const Editor = () => {
+const Metadata = () => {
   const [ title, setTitle] = useState()
 
   useEffect(() => {
@@ -17,5 +17,5 @@ const Editor = () => {
   )
 }
 
-const domContainer = document.querySelector('#storage_container');
-ReactDOM.render(e(Editor), domContainer);
+const domContainer = document.querySelector('#metadata_container');
+ReactDOM.render(e(Metadata), domContainer);

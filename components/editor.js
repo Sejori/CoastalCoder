@@ -4,5 +4,5 @@ const Editor = () => (
   <div>Editor yo</div>
 )
 
-const domContainer = document.querySelector('#storage_container');
+const domContainer = document.querySelector('#editor_container');
 ReactDOM.render(e(Editor), domContainer);
